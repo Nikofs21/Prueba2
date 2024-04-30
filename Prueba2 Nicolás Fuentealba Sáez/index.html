@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Comentarios de Videojuegos</title>
+</head>
+<body>
+    <header style="background: url('styles/controles.webp') no-repeat center center fixed;">
+        <div class="container">
+            <h1>Bienvenido al foro de comentarios de videojuegos</h1>
+            <p>¡Comparte tu opinión sobre tus videojuegos favoritos!</p>
+            <a href="#comentarios" class="btn">Ver Comentarios</a>
+        </div>   
+    </header>
+    
+    <section id="comentarios">
+        <div class="container">
+            <h2>Comentarios destacados de los videojuegos favoritos de los usuarios</h2>
+            <div class="comentario">
+                <p>"¡Increíble juego! Me encantó la jugabilidad y la historia."</p>
+                <cite>- Franklin Clinton</cite>
+                <p><strong>Juego:</strong> GTA V</p>
+            </div>
+            <div class="comentario">
+                <p>"Una experiencia inolvidable. Gráficos impresionantes."</p>
+                <cite>- John Marston</cite>
+                <p><strong>Juego:</strong> Red Dead Redemption 2</p>
+            </div>
+            <div class="comentario">
+                <p>"Divertido y adictivo. No puedo dejar de jugarlo."</p>
+                <cite>- Brendan</cite>
+                <p><strong>Juego:</strong> Pokemon Esmeralda</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuevo-comentario">
+        <div class="container">
+            <h2>Deja tu comentario</h2>
+            <form action="#" method="post">
+                <input type="text" name="username" placeholder="Nombre de Usuario" required>
+                <input type="text" name="game" placeholder="Nombre del Juego" required>
+                <textarea name="comment" placeholder="Tu Comentario" required></textarea>
+                <button type="submit" class="btn btn-dark">Enviar Comentario</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>🎮 Desarrollado por Nicolás Fuentealba Sáez 🕹️</p>
+        </div>
+    </footer>
+</body>
+</html>
